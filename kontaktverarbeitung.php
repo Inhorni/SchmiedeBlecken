@@ -19,6 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $full_message, $headers);
     
     // Optional: Weiterleitung nach dem Absenden
-    header("Location: danke.html");
+    header("Location: Main.html");
 }
 ?>
