@@ -1,72 +1,58 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
+/* Header styles */
+header {
+    background-color: #343a40;
+}
 
-    body {
-        font-family: Arial, sans-serif;
-        background-image: url('https://img.freepik.com/free-photo/black-abstract-background-wallpaper-image_53876-110775.jpg?w=1380&t=st=1694074930~exp=1694075530~hmac=8a1854c17f18f9c73ffda796fcef9ec90ae07ef51b44dbf3ec796518e489653e'); /* Replace with your image file */
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: black;
-    }
+.navbar {
+    padding: 1rem 0;
+}
 
-    .navbar {
-        background-color: #343a40;
-    }
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 
-    .navbar-brand {
-        color: white;
-        font-weight: bold;
-    }
+.nav-link {
+    color: white !important;
+}
 
-    .nav-link {
-        color: white;
-    }
+/* Hero section styles */
+.hero {
+    background-color: #343a40;
+    color: white;
+    padding: 100px 0;
+}
 
-hr {
-        height: 20px; /* Adjust the height as needed */
-        border: none; /* Remove the default border */
-        background-color: white; /* Change the background color as desired */
-        margin-top: 0;
-    }
+.hero h1 {
+    font-size: 2.5rem;
+}
 
-    h2 {
-        color: #343a40;
-    }
+/* Features section styles */
+.features {
+    padding: 50px 0;
+}
 
-    footer {
-        text-align: center;
-        padding: 10px;
-        background-color: #343a40;
-        color: white;
-    }
+.features .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
 
-    .jumbotron {
-        background-color: transparent;
-        text-align: center;
-        padding: 50px 0;
-    }
+.features .card:hover {
+    transform: translateY(-10px);
+}
 
-    .jumbotron h1 {
-        color: white; /* Make the heading white */
-    }
-
-    .jumbotron p {
-        color: white; /* Make the text white */
-    }
-
-    .top-right {
-        position: absolute;
-        top: 15px;
-        right: 10px;
-    }
-
-    .template {
-        background-color: #f8f9fa; /* Background color for templates */
-        padding: 20px; /* Add padding for spacing */
-        margin-bottom: 20px; /* Add margin for spacing between templates */
-    }
-
-    .carousel-item img {
-        width: 100%;
-        height: 500px;
-        object-fit:fill}
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
