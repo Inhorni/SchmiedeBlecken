@@ -2,12 +2,13 @@
 body, html {
     margin: 0;
     padding: 0;
+    background-color: white;
     font-family: Arial, sans-serif;
 }
 
 /* Header styles */
 header {
-    background-color: #343a40;
+    background-color: #ffffff;
 }
 
 .navbar {
@@ -84,3 +85,96 @@ section img {
     */
     height: 50%;
 }
+
+/*MAIN CONTAINER*/
+#picture-text {
+    position: relative;
+    background: white;
+    padding: 2rem 0;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*UNCOMMENT TO SWITCH */
+    /*flex-direction: row-reverse;*/
+}
+
+
+
+/*IMAGE*/
+#picture-text img {
+    height:450px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+
+/*TEXT CONTAINER*/
+.picture-text-content {
+    width: 50ch;
+}
+
+
+/*SMALL HEADING*/
+.picture-text-content h4 {
+    color: teal;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+/*BIG HEADING*/
+.picture-text-content h2 {
+    font-size: 2.8rem;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+/*PARAGRAPH TEXT*/
+.picture-text-content p {
+    opacity: .8;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+/*TABLET*/
+@media screen and (max-width: 960px) {
+    .picture-text-content {
+    width: 70%;
+    padding: 1rem;
+    }
+    .picture-text-content h2 {
+    font-size: 2.2rem;
+    }
+}
+
+
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+    #picture-text {
+        flex-direction: column;
+        padding: 2rem 0;
+        gap: 0;
+    }
+    #picture-text img {
+        width: 90vw;
+        height: 300px;
+    }
+    .picture-text-content {
+    width: 90%;
+    padding: 2rem 0 0 0;
+    }
+    .picture-text-content h2 {
+    font-size: 2rem;
+    }
+}
+
