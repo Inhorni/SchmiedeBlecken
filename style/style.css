@@ -11,9 +11,31 @@ header {
     background-color: #ffffff;
 }
 
-.navbar {
+/*.navbar {
+   
     padding: 1rem 0;
+}*/
+/* Sticky Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust the background color as needed */
+    padding: 10px 0; /* Adjust the padding as needed */
+    transition: all 0.3s ease; /* Add smooth transition effect */
 }
+
+/* Reduce navbar padding and font size when scrolled */
+.navbar.scrolled {
+    padding: 10px 0; /* Adjust the padding as needed */
+}
+
+.navbar-brand.scrolled {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
 
 .navbar-brand {
     font-weight: bold;
@@ -184,3 +206,4 @@ section img {
 width: 100%;
 margin-right: auto;
 margin-left: auto;}
+
