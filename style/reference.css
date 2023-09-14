@@ -35,7 +35,6 @@
 
 .mfp-with-zoom.mfp-ready .mfp-title, .touch .gallery-image figcaption, html:not(.touch) .gallery-image:hover figcaption {
   color: white;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease 0.3s;
 }
 .mfp-with-zoom.mfp-ready .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image:hover figcaption:before, .mfp-with-zoom.mfp-ready .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image:hover figcaption:after {
@@ -53,7 +52,6 @@
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizelegibility;
 }
 
 body {
