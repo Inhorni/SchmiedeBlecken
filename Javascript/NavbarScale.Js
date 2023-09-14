@@ -7,7 +7,7 @@
         document.querySelector(".navbar-brand").style.fontSize = "25px";
       } else {
         document.querySelector(".navbar").style.padding = "30px 10px";
-        document.querySelector(".navbar-brand").style.fontSize = "35px";
+        document.querySelector(".navbar-brand").style.fontSize = "25px";
       }
     } 
 
