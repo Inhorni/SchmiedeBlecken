@@ -19,3 +19,16 @@ body {
     display: flex;
     margin-left: 4px;
   }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    z-index: 1;
+}
+
+
