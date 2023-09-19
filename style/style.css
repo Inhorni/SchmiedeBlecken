@@ -358,10 +358,48 @@ right: 10px;
   .centered-Textdown {
     position: absolute;
     top: 65%;
-    left: 52%;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
   }
+  @keyframes slideFromTop {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideFromBottom {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .centered {
+    animation: slideFromTop 1s ease;
+  }
+  
+  .centered-Textdown {
+    animation: slideFromBottom 1s ease;
+  }
+
+  .centered.animate {
+    animation-duration: 0.5s;
+    animation-delay: 0.5s; /* Adjust delay as needed */
+    animation-fill-mode: both;
+  }
+  
+  .centered-Textdown.animate {
+    animation-duration: 0.5s;
+    animation-delay: 0.5s; /* Adjust delay as needed */
+    animation-fill-mode: both;
+  }
+  
 
