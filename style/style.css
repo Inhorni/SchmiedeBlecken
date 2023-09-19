@@ -393,13 +393,13 @@ right: 10px;
   }
 
   .centered.animate {
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-delay: 0.5s; /* Adjust delay as needed */
     animation-fill-mode: both;
   }
   
   .centered-Textdown.animate {
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-delay: 0.5s; /* Adjust delay as needed */
     animation-fill-mode: both;
   }
