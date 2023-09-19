@@ -345,3 +345,23 @@ right: 10px;
     padding-bottom: 0;
   }
   
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .centered-Textdown {
+    position: absolute;
+    top: 65%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+  }
+
