@@ -349,6 +349,7 @@ right: 10px;
     position: absolute;
     top: 40%;
     left: 50%;
+    left: 700px;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     font-size: 7rem;
@@ -357,8 +358,9 @@ right: 10px;
 
   .centered-Textdown {
     position: absolute;
-    top: 65%;
-    left: 30%;
+    top: 50%;
+    left: 20%;
+    right: 400px;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     font-size: 2rem;
