@@ -204,7 +204,7 @@ section img {
     font-size: 2rem;
     }
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container, .container-lg, .container-fluid, .container-md, .container-sm, .container-xl, .container-xxl {
 
 --bs-gutter-x: 0;
 --bs-gutter-y: 0;
@@ -404,4 +404,7 @@ right: 10px;
     animation-fill-mode: both;
   }
   
-
+.img-fluid{
+    height: 980px;
+    width: 100%;
+}
