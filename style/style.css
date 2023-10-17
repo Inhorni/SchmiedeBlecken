@@ -30,6 +30,7 @@ header {
     background-color: rgba(255, 255, 255, 0.9); /* Adjust the background color as needed */
     padding: 10px 0; /* Adjust the padding as needed */
     transition: all 0.3s ease; /* Add smooth transition effect */
+   
 }
 
 /* Reduce navbar padding and font size when scrolled */
@@ -349,7 +350,7 @@ right: 10px;
     position: absolute;
     top: 40%;
     left: 50%;
-    left: 390px;
+    left: 700px;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     font-size: 7rem;
