@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/Contacts.css">
@@ -23,7 +24,6 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="Main.html">
                     <img src="imgs/Element_9.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,80 +45,38 @@
                     </ul>
                 </div>
             </nav>
-            <!--Contact content-->
-    </div>
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="text-center mt-4">
-                    <h4>Weitere Informationen</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a nunc ac justo aliquam vehicula.</p>
-                </div>
-            </div>
         </div>
-        <div class="container my-5">
+        <!-- Contact content -->
+        <div class="container">
+            <h1 class="contact-heading">Kontaktieren Sie uns</h1>
+            <p class = "contact-smalltext">Haben sie Fragen? Dann können sie mich per Email oder Telefonnummer kontaktieren</p>
             <div class="row justify-content-center">
-                <div class="col-lg-9">
-                    <h1 class="mb-3">Kontaktieren Sie uns</h1>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label for="company" class="form-label">Ihre Firma</label>
-                                <input type="text" class="form-control" id="company" name="company">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="firstname" class="form-label">Ihr Vorname *</label>
-                                <input type="text" class="form-control" id="firstname" name="firstname" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="lastname" class="form-label">Ihr Name *</label>
-                                <input type="text" class="form-control" id="lastname" name="lastname" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="street" class="form-label">Straße *</label>
-                                <input type="text" class="form-control" id="street" name="street" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="zipcode" class="form-label">PLZ *</label>
-                                <input type="text" class="form-control" id="zipcode" name="zipcode" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="city" class="form-label">Ort *</label>
-                                <input type="text" class="form-control" id="city" name="city" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="phone" class="form-label">Telefon *</label>
-                                <input type="tel" class="form-control" id="phone" name="phone" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email" class="form-label">E-Mail *</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
-                            </div>
-                            <div class="col-12">
-                                <label for="message" class="form-label">Nachricht *</label>
-                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                            </div>
-                           
-                            <div class="col-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <button data-res="<?php echo $sum; ?>" type="submit" class="btn btn-dark w-100 fw-bold">Senden</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                <div class="contact-info-phone">
+                    <h5>Telefonnummer</h5>
+                    <img src="imgs/phone.png" alt="Telefonnummer Placeholder">
+                    <p>+49 123 4567890</p>
+                </div>
+                <div class="contact-info-email">
+                    <h5>Email Adresse</h5>
+                    <img src="imgs/email.png" alt="Email Adresse Placeholder">
+                    <p>info@example.com</p>
+                </div>
+                <div class="contact-info-adress">
+                    <h5>Adresse</h5>
+                    <img src="imgs/adress.png" alt="Adresse Placeholder">
+                    <p>Musterstraße 123, 12345 Musterstadt</p>
                 </div>
             </div>
         </div>
-
         <div class="footer-basic">
             <footer>
                 <ul>    
                     <li class="list-inline-item"><a href="datenschutz.html">Datenschutz</a></li>
                     <li class="list-inline-item"><a href="impressum.html">Impressum</a></li>
                 </ul>
-                <p class="copyright">&copy;Schmiede-Blecken</p>
+                <p class="copyright">&copy; Schmiede-Blecken</p>
             </footer>
         </div>
+    </div>
 </body>
 </html>
