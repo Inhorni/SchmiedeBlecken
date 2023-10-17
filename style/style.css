@@ -351,7 +351,7 @@ right: 10px;
     left: 50%;
     left: 390px;
     transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 7rem;
     font-family: 'Lato', sans-serif;
   }
@@ -362,7 +362,7 @@ right: 10px;
     left: 20%;
     right: 400px;
     transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
   }
