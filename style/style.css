@@ -24,7 +24,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 50px;
+    height: 70px;
     width: 100%;
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.9); /* Adjust the background color as needed */
@@ -351,21 +351,32 @@ right: 10px;
     left: 50%;
     left: 390px;
     transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 7rem;
     font-family: 'Lato', sans-serif;
-  }
+    background: rgba(0, 0, 0, 0.5); /* Hintergrundfarbe mit Transparenz */
+    padding: 20px; /* Fügen Sie Padding hinzu, um den Text innerhalb der Box zu zentrieren */
+    border-radius: 10px; /* Runde Ecken für die Box */
+    height: 90px;
+    background: rgba(0, 0, 0, 0.7);
+}
 
-  .centered-Textdown {
+.centered-Textdown {
     position: absolute;
     top: 50%;
     left: 20%;
     right: 400px;
     transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
-  }
+    background: rgba(0, 0, 0, 0.5); /* Hintergrundfarbe mit Transparenz */
+    padding: 20px; /* Fügen Sie Padding hinzu, um den Text innerhalb der Box zu zentrieren */
+    border-radius: 10px; /* Runde Ecken für die Box */
+    background: rgba(0, 0, 0, 0.7);
+   
+}
+
   @keyframes slideFromTop {
     from {
       transform: translateY(-100%);
