@@ -364,6 +364,7 @@ right: 10px;
 
 .centered-Textdown {
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 20%;
     right: 400px;
