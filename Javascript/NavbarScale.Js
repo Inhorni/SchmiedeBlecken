@@ -1,12 +1,16 @@
+window.onscroll = function() {
+  scrollFunction();
+};
 
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.querySelector(".navbar").style.padding = "10px 20px";
-        document.querySelector(".navbar-brand").style.fontSize = "25px";
-      } else {
-        document.querySelector(".navbar").style.padding = "20px 20px";
-        document.querySelector(".navbar-brand").style.fontSize = "25px";
-      }
-    };
+function scrollFunction() {
+  var navbar = document.querySelector(".navbar");
+  var navbarBrand = document.querySelector(".navbar-brand");
+  
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    navbar.style.height = "50px"; // Ändere die Höhe der Navbar hier nach Bedarf
+    navbarBrand.style.fontSize = "20px"; // Ändere die Schriftgröße hier nach Bedarf
+  } else {
+    navbar.style.height = "80px"; // Zurück zur ursprünglichen Höhe
+    navbarBrand.style.fontSize = "25px"; // Zurück zur ursprünglichen Schriftgröße
+  }
+}
