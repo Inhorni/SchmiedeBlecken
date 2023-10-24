@@ -1,11 +1,22 @@
 
 .picture-text-content {
 
-    border:2px solid #000000;
-    margin-left: 20px;
+   
+    margin-left: -1000px;
     width: 700px;
-    text-align: center;
+    text-align:center;
    padding: 10px;
+   margin-top: -1200px;
    white-space: nowrap;
-   left: 90%;
+   left: 87%;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.7); /* Hier kannst du die Transparenz anpassen (0.4 steht für 40% Transparenz) */
+   color: white;
+   border-radius: 10px;
+
+}
+
+.backround {
+    width: 90%;
+    padding: 2rem 0 0 0;
 }
