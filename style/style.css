@@ -1,4 +1,5 @@
-p{
+.fontsizing{
+    font-size: 17.5px;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -115,8 +116,6 @@ footer {
 
 section img {
     max-width: 100%;
-    /*height: auto;
-    */
     height: 50%;
 }
 
@@ -129,8 +128,6 @@ section img {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*UNCOMMENT TO SWITCH */
-    /*flex-direction: row-reverse;*/
 }
 
 
@@ -246,6 +243,7 @@ margin-right: auto;
 
 .nav-link {
     padding-bottom: 10px; 
+    font-size: 18px;
 }
 
 .v-line {
