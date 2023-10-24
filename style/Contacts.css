@@ -84,8 +84,8 @@ footer {
 .background-box {
   position: absolute;
   top: 120px; 
-  left: 260px; 
-  width: 70%;
+  left: 284px; 
+  width: 67.5%;
   height: 30%;
   background-color: rgba(0, 0, 0, 0.5); /* Hier kannst du die Transparenz anpassen (0.4 steht für 40% Transparenz) */
   border:2px solid #000000;
