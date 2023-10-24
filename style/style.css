@@ -162,7 +162,7 @@ section img {
 
 /*PARAGRAPH TEXT*/
 .picture-text-content p {
-    opacity: .8;
+    opacity: 1;
     font-weight: 300;
     line-height: 1.6;
 }
