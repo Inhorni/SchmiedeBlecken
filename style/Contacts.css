@@ -57,8 +57,8 @@ footer {
 .contact-info-phone {
   flex: 2; /* Gleichmäßiger Platz für jede Kontaktinformation */
   margin-right: 50px; 
-  margin-top: 100px;
- border: 1px solid;
+  margin-top: 150px;
+ border: 2px solid;
  margin-left: auto;
  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
  
@@ -80,4 +80,16 @@ footer {
   padding-bottom: 0;
 }
 
-
+/* Großer schwarzer Hintergrund mit Transparenz hinter dem Text "Kontaktieren Sie uns" und dem Textabschnitt */
+.background-box {
+  position: absolute;
+  top: 120px; 
+  left: 260px; 
+  width: 70%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.5); /* Hier kannst du die Transparenz anpassen (0.4 steht für 40% Transparenz) */
+  border:2px solid #000000;
+}
+.container{
+  width: 100%;
+}

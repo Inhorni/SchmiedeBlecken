@@ -1,0 +1,11 @@
+
+.picture-text-content {
+
+    border:2px solid #000000;
+    margin-left: 20px;
+    width: 700px;
+    text-align: center;
+   padding: 10px;
+   white-space: nowrap;
+   left: 90%;
+}
