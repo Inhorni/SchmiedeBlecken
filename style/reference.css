@@ -49,13 +49,7 @@
   top: -1.5em;
 }
 
-html {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-}
-
 body {
-  font-family: "Montserrat", sans-serif;
   padding-top: 80px;
 }
 
