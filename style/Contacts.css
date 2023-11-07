@@ -86,8 +86,7 @@ footer {
   top: 120px; 
   left: 284px; 
   width: 67.5%;
-  height: 30%;
-  background-color: rgba(0, 0, 0, 0.5); /* Hier kannst du die Transparenz anpassen (0.4 steht für 40% Transparenz) */
+  height: 30%; /* Hier kannst du die Transparenz anpassen (0.4 steht für 40% Transparenz) */
   border:2px solid #000000;
 }
 .container{
