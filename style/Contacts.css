@@ -92,3 +92,9 @@ footer {
 .container{
   width: 100%;
 }
+
+.nav-kontakt2{
+  position: fixed;
+  right: 25px;
+  padding-top: 6px;
+  }
